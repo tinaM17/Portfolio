@@ -37,7 +37,7 @@ This portfolio website showcases my skills, projects, and provides an overview o
 The site will be accessible at http://localhost:3000.
 
 Live Demo
-You can check out the live version of the portfolio here:- 
+You can check out the live version of the portfolio here:- [https://tina-majumder-portfolio.netlify.app/]
 
 Contributing
 Feel free to contribute to the project by opening issues or submitting pull requests.
