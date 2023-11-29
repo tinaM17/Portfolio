@@ -1,0 +1,103 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: #0c0c1d;
+}
+
+.logo {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
+.logosection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact {
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+.contactMe {
+    padding: 5px 10px;
+    background-color: rgb(108, 221, 211);
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap:25px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.item:hover {
+    color: yellow;
+    padding-bottom: 0.2rem;
+    border-bottom: 3px solid yellow;
+}
+
+.item{
+    color: white;
+}
+
+.active {
+    color: yellow;
+    padding-bottom: 0.2rem;
+    border-bottom: 3px solid yellow;
+}
+.mobMenu {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    display: none;
+}
+
+.navMenu {
+   position: absolute;
+   top: 4rem;
+   right: 2rem;
+   z-index: 2;
+   display: flex;
+   flex-direction: column;
+   padding: 0.5rem;
+   height: fit-content;
+   min-width: 15rem;
+   background: #2b2b45;
+   border-radius: 1rem;
+}
+
+.hideMenu {
+    padding: 0.5rem 3.5rem;
+    margin: 0.5rem;
+    background-color: #0c0c1d;
+}
+
+@media screen and (max-width:720px) {
+
+    .mobMenu {
+        display: flex;
+    }
+    .links {
+        display: none;
+    }
+
+    .contactMe {
+        display: none;
+    }
+}
