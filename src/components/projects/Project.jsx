@@ -11,10 +11,10 @@ function Project() {
    },
    {
      id: 2,
-     name: "User Management Dashboard",
+     name: "Dollop",
      tech: "Mern Stack",
-     image: "./User.png",
-     link: "https://github.com/tinaM17/UserManagementFrontend",
+     image: "./DollopSs.png",
+     link: "https://github.com/tinaM17",
    },
    {
      id: 3,
